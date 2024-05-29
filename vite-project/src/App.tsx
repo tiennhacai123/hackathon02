@@ -1,9 +1,12 @@
-import React from 'react'
-import ShoppingCartApp from'./components/ShoppingCartApp.tsx';
-export default function App() {
+import React from 'react';
+import ShoppingCartApp from './components/ShoppingCartApp';
+
+const App: React.FC = () => {
   return (
     <div>
-      <ShoppingCartApp></ShoppingCartApp>
+      <ShoppingCartApp />
     </div>
-  )
-}
+  );
+};
+
+export default App;
